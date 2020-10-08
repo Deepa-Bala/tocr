@@ -161,7 +161,7 @@ app.post('/ocrfiles', async (req, res) => {
             const ocrpath =  __dirname + '\\ocrfiles\\'+ocrfile.name;
             console.log(ocrpath);
              await computerVision(ocrpath); 
-             //console.log(ocrjsondata);
+             //console.log(ocrjsondata);   
                       await sleep(20000);
           
                        res.send({
