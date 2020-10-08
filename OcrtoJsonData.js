@@ -65,8 +65,8 @@ app.get('/health', async (req, res) => {
         // message: 'File is uploaded',
     });
 })
-app.get('/login/github',(req,res) => {});
-app.get('/login/github/callback',(req,res) => {});
+//app.get('/login/github',(req,res) => {});
+//app.get('/login/github/callback',(req,res) => {});
 
 // <snippet_functiondef_begin>
 function computerVision(filepath) {
