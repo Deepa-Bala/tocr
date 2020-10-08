@@ -65,6 +65,8 @@ app.get('/health', async (req, res) => {
         // message: 'File is uploaded',
     });
 })
+//app.get('/login/github',(req,res) => {});
+//app.get('/login/github/callback',(req,res) => {});
 
 // <snippet_functiondef_begin>
 function computerVision(filepath) {
@@ -161,7 +163,7 @@ app.post('/ocrfiles', async (req, res) => {
             const ocrpath =  __dirname + '\\ocrfiles\\'+ocrfile.name;
             console.log(ocrpath);
              await computerVision(ocrpath); 
-             //console.log(ocrjsondata);
+             //console.log(ocrjsondata);   
                       await sleep(20000);
           
                        res.send({
