@@ -1,12 +1,12 @@
 {
   "name": "tmax-ocr-jsondata",
   "version": "1.0.0",
-  "main": "OcrtoJsonData.js",
+  "main": "index.js",
   "directories": {
     "test": "test"
   },
   "scripts": {
-    "start": "nodemon OcrtoJsonData.js",
+    "start": "nodemon index.js",
     "test": "mocha ./test/* --exit"
   },
   "author": "",
