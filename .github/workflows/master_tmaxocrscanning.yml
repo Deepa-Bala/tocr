@@ -7,6 +7,10 @@ on:
   push:
     branches:
       - master
+env:
+  COMPUTER_VISION_SUBSCRIPTION_KEY: af10f5dcd5534444adadd6c24c611d97
+  COMPUTER_VISION_ENDPOINT: https://tmaxcomputervision.cognitiveservices.azure.com
+               
 
 jobs:
   build-and-deploy:
