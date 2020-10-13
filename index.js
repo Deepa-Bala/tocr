@@ -52,9 +52,9 @@ const computerVisionClient = new ComputerVisionClient(
  */
 
 
-app.get('/', (req, res) => {
+/*app.get('/', (req, res) => {
     res.send('Hello World!')
-  });
+  });*/
 app.get('/',(req,res)=>res.send("OCRtoJsonDataProcess"));
 app.listen(port, () => 
   console.log(`App is listening on port ${port}.`)
