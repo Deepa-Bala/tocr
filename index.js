@@ -149,7 +149,7 @@ function computerVision(filepath) {
 }
 
 app.post('/ocrfiles', async (req, res) => {
-    try {
+    try { 
         if(!req.files) {
             res.send({
                 status: false,
